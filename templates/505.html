@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}Server Error - AI Habit Assistant{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-6 text-center py-5">
+            <div class="error-content">
+                <i class="bi bi-exclamation-triangle display-1 text-warning mb-4"></i>
+                <h1 class="display-4 fw-bold mb-3">500</h1>
+                <h2 class="h4 mb-3">Internal Server Error</h2>
+                <p class="lead text-muted mb-4">
+                    Something went wrong on our end. Don't worry, it's not you, it's us! 
+                    Please try again in a moment.
+                </p>
+                <div class="d-flex gap-2 justify-content-center">
+                    <a href="{{ url_for('index') }}" class="btn btn-primary">
+                        <i class="bi bi-arrow-clockwise me-1"></i>Try Again
+                    </a>
+                    <a href="{{ url_for('new_plan') }}" class="btn btn-outline-primary">
+                        <i class="bi bi-house me-1"></i>Go Home
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
