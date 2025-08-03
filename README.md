@@ -204,17 +204,6 @@ python app.py
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- OpenAI for providing the GPT API
-- Bootstrap team for the excellent CSS framework
-- Flask community for the amazing web framework
-- Google Fonts for the beautiful Inter typeface
-
 ## 📧 Contact
 
 - **GitHub**: [ZeeshanC21](https://github.com/ZeeshanC21)
